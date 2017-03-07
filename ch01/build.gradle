@@ -1,11 +1,12 @@
-/* Uncomment if this project CH02 need to be compile alone
+/* Uncomment if this project CH02 need to be compile alone */
 apply plugin: 'java'
 apply plugin: 'groovy'
 apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: "application"
 
-mainClassName = System.getProperty("mainClass")
+//mainClassName = System.getProperty("mainClass")
+mainClassName = "com.apress.isf.spring.Application"
 
 //Run the application with:  gradle run -DmainClass=com.apress.isf.spring.HelloWorldController
 
@@ -33,4 +34,4 @@ test {
 	 	events 'started', 'passed'
  	}
 }
- */
+ 

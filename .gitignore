@@ -6,6 +6,9 @@
 
 .settings
 .svn
+.idea
+.gradle
+gradle
 target
 test-output
 tmp
@@ -26,11 +29,13 @@ dist
 .project
 .classpath
 manifest
-#/nb-configuration.xml
-#/nbactions.xml
+/nb-configuration.xml
+/nbactions.xml
 MANIFEST.MF
 .faces-config.xml.faceside
 .faces-config.xml.jsfdia
+#*.gradle
+gradle*.*
 
 # pliki w każdym katalogu
 
